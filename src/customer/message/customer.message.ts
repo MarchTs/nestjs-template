@@ -1,6 +1,6 @@
 export class CustomerMessage {
-  id: string;
-  name: string;
+  public id: string;
+  public name: string;
 
   constructor(data: any);
   constructor(id: string, name: string);
